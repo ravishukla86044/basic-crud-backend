@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const studentSchema = new mongoose.Schema(
   {
     name: { type: String, required: false },
-    age: { type: Nubmer, required: true },
+    age: { type: Number, required: true },
     city: { type: String, required: true },
     gender: { type: String, required: true },
   },
